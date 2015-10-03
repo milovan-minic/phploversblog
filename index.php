@@ -1,5 +1,11 @@
 <?php
+include "config/config.php";
+include "libraries/Database.php";
 include "includes/header.php";
+?>
+
+<?php
+    $db = new Database();
 ?>
 
             <div class="blog-post">
